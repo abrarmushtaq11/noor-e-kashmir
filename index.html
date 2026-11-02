@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor-e-Kashmir • The Holy Quran in Kashmiri (نورِ کشمیر)</title>
+    <meta name="description" content="Noor-e-Kashmir (نورِ کشمیر) - The premier Holy Quran companion featuring authentic Kashmiri translation (Bayan-ul-Furqan by Mirwaiz Yousuf Shah RA), audio recitations, Kashmir prayer times, and daily Azkar. 100% Ad-Free & Offline.">
+    <meta name="keywords" content="Kashmiri Quran, Koshur Tarjuma, Mirwaiz Yousuf Shah, Bayan ul Furqan, Quran in Kashmiri, Kashmir Prayer Times, Srinagar Azan, Noor-e-Kashmir">
+    <link rel="icon" type="image/png" href="icon.png">
+    
+    <!-- Open Graph / Social Sharing Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Noor-e-Kashmir (نورِ کشمیر) • Kashmiri Quran App">
+    <meta property="og:description" content="The Holy Quran with authentic Kashmiri translation, audio bayans, district prayer schedules, and daily Azkar. Free & 100% Ad-Free.">
+    <meta property="og:image" content="icon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .arabic-title { font-family: 'Noto Naskh Arabic', serif; }
+        .gold-glow {
+            box-shadow: 0 0 50px -10px rgba(200, 157, 92, 0.25);
+        }
+        .gold-text-gradient {
+            background: linear-gradient(135deg, #FFF1D6 0%, #DFBA7E 50%, #C89D5C 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-[#0B0D0F] text-slate-100 antialiased selection:bg-[#C89D5C] selection:text-black">
+
+    <!-- Ambient Gold Radial Glow in Background -->
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-b from-[#C89D5C]/10 via-[#C89D5C]/5 to-transparent blur-3xl pointer-events-none -z-10"></div>
+
+    <!-- Sticky Navigation -->
+    <header class="sticky top-0 z-50 bg-[#0B0D0F]/90 backdrop-blur-md border-b border-[#22262C]">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="icon.png" alt="Noor-e-Kashmir Logo" class="w-10 h-10 rounded-xl border border-[#C89D5C]/40 shadow-lg">
+                <div>
+                    <span class="text-base font-bold text-white tracking-tight flex items-center gap-1.5">
+                        Noor-e-Kashmir <span class="arabic-title text-sm text-[#DFBA7E] font-normal">نورِ کشمیر</span>
+                    </span>
+                    <span class="block text-[10.5px] text-slate-400 font-medium">Authentic Kashmiri Translation</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-6 text-xs font-semibold text-slate-300">
+                <a href="#features" class="hover:text-[#DFBA7E] transition-colors">Features</a>
+                <a href="#translation" class="hover:text-[#DFBA7E] transition-colors">Kashmiri Translation</a>
+                <a href="#prayer-times" class="hover:text-[#DFBA7E] transition-colors">Prayer Times</a>
+                <a href="privacy.html" class="hover:text-[#DFBA7E] transition-colors">Privacy Policy</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <a href="#download" class="px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-[#DFBA7E] to-[#C89D5C] text-black hover:opacity-95 transition-all shadow-md">
+                    Download APK
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-20 md:pt-24 md:pb-28 text-center relative">
+        <!-- Top Pill Badge -->
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#15181C] border border-[#C89D5C]/40 text-[#DFBA7E] text-xs font-semibold mb-6 shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Version 1.0.0 • 100% Ad-Free & Offline Ready
+        </div>
+
+        <!-- Big Arabic Calligraphy Headline -->
+        <div class="arabic-title text-3xl sm:text-4xl md:text-5xl text-[#DFBA7E] font-normal mb-4 tracking-wide">
+            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </div>
+
+        <!-- Main English Headline -->
+        <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto mb-6 leading-tight">
+            The Holy Quran with Authentic <span class="gold-text-gradient">Kashmiri Translation</span>
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="text-sm sm:text-base md:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed mb-10">
+            Illuminate your Quran journey in your mother tongue. Featuring the revered <em>Bayan-ul-Furqan</em> by Mirwaiz Molvi Mohammad Yousuf Shah (RA), world-class reciters with background audio, and precision prayer times across all Kashmir districts.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-wrap items-center justify-center gap-4 mb-16" id="download">
+            <a href="https://github.com" class="px-6 py-3.5 rounded-2xl text-sm font-bold bg-gradient-to-r from-[#DFBA7E] via-[#C89D5C] to-[#B38747] text-black shadow-xl hover:shadow-[#C89D5C]/20 hover:scale-[1.02] transition-all flex items-center gap-2.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                Download Release APK (v1.0.0)
+            </a>
+            <div class="px-5 py-3.5 rounded-2xl text-sm font-semibold bg-[#15181C] border border-[#2A2F38] text-slate-300 flex items-center gap-2.5 shadow-md">
+                <svg class="w-5 h-5 text-emerald-400" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a1.99 1.99 0 01-.61-.967V2.781c0-.369.222-.733.609-.967zm11.597 11.597l2.42 2.42-12.012 6.945 9.592-9.365zm0-2.822L5.614 1.224 17.626 8.17l-2.42 2.419zm1.414 1.414l3.153 1.821c1.037.599 1.037 1.577 0 2.176l-3.153 1.821-2.42-2.42 2.42-2.398z"/></svg>
+                Google Play Store (Publishing Soon)
+            </div>
+        </div>
+
+        <!-- App Hero Card Mockup -->
+        <div class="max-w-3xl mx-auto rounded-3xl bg-gradient-to-b from-[#181D24] to-[#111419] border border-[#C89D5C]/30 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                <div class="p-4 rounded-2xl bg-[#0F1115] border border-[#22262C]">
+                    <div class="text-2xl font-extrabold text-[#DFBA7E]">114</div>
+                    <div class="text-[11px] text-slate-400 font-medium mt-1">Complete Surahs</div>
+                </div>
+                <div class="p-4 rounded-2xl bg-[#0F1115] border border-[#22262C]">
+                    <div class="text-2xl font-extrabold text-[#DFBA7E]">6,236</div>
+                    <div class="text-[11px] text-slate-400 font-medium mt-1">Ayahs Offline</div>
+                </div>
+                <div class="p-4 rounded-2xl bg-[#0F1115] border border-[#22262C]">
+                    <div class="text-2xl font-extrabold text-emerald-400">100%</div>
+                    <div class="text-[11px] text-slate-400 font-medium mt-1">Ad-Free & Private</div>
+                </div>
+                <div class="p-4 rounded-2xl bg-[#0F1115] border border-[#22262C]">
+                    <div class="text-2xl font-extrabold text-[#DFBA7E]">11</div>
+                    <div class="text-[11px] text-slate-400 font-medium mt-1">Kashmir Districts</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Feature Grid -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-16 border-t border-[#22262C]" id="features">
+        <div class="text-center mb-16">
+            <h2 class="text-xs uppercase tracking-wider font-semibold text-[#DFBA7E] mb-2">Designed for the Kashmiri Ummah</h2>
+            <h3 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Every Spiritual Tool in One Sacred Place</h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- Card 1 -->
+            <div class="bg-[#15181C] border border-[#22262C] hover:border-[#C89D5C]/50 rounded-3xl p-7 transition-all group">
+                <div class="w-12 h-12 rounded-2xl bg-[#C89D5C]/15 border border-[#C89D5C]/30 flex items-center justify-center text-[#DFBA7E] mb-5 text-xl font-bold">
+                    📖
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">Authentic Kashmiri Translation</h4>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Featuring <em>Bayan-ul-Furqan</em> by Mirwaiz Molvi Mohammad Yousuf Shah (RA), alongside Urdu and English translations with rich Kashmiri Nastaliq typography.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-[#15181C] border border-[#22262C] hover:border-[#C89D5C]/50 rounded-3xl p-7 transition-all group">
+                <div class="w-12 h-12 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-300 mb-5 text-xl font-bold">
+                    🎧
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">Background Audio Playback</h4>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Listen to Mishary Alafasy, As-Sudais, and full Kashmiri Surah bayans. Features full lock-screen media controls (Play, Pause, Skip) that keep playing when screen is locked.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-[#15181C] border border-[#22262C] hover:border-[#C89D5C]/50 rounded-3xl p-7 transition-all group">
+                <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-300 mb-5 text-xl font-bold">
+                    🕌
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">Kashmir District Prayer Times</h4>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Offline astronomical prayer calculation for Srinagar, Anantnag, Baramulla, Budgam, Pulwama, Kupwara, and more. Comes with custom Azan notifications and a Home Screen Widget.
+                </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-[#15181C] border border-[#22262C] hover:border-[#C89D5C]/50 rounded-3xl p-7 transition-all group">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-300 mb-5 text-xl font-bold">
+                    🧭
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">Magnetic Qibla Compass</h4>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Precision real-time compass that accurately points towards the Holy Kaaba from any location in Kashmir or globally, with smooth haptic feedback.
+                </p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="bg-[#15181C] border border-[#22262C] hover:border-[#C89D5C]/50 rounded-3xl p-7 transition-all group">
+                <div class="w-12 h-12 rounded-2xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-300 mb-5 text-xl font-bold">
+                    🤲
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">Daily Azkar & Tasbeeh</h4>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Authentic morning and evening supplications from Hisnul Muslim, digital Tasbeeh counter, and 99 Beautiful Names of Allah (Asma-ul-Husna).
+                </p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="bg-[#15181C] border border-[#22262C] hover:border-[#C89D5C]/50 rounded-3xl p-7 transition-all group">
+                <div class="w-12 h-12 rounded-2xl bg-rose-500/15 border border-rose-500/30 flex items-center justify-center text-rose-300 mb-5 text-xl font-bold">
+                    🎨
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">Status Maker & Dawah Cards</h4>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Create and export beautiful Quranic verse status images with gold calligraphy and Kashmiri translation to share with family, WhatsApp, and social media.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Kashmiri Translation Spotlight Section -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-16 border-t border-[#22262C]" id="translation">
+        <div class="bg-gradient-to-br from-[#15181C] to-[#1B2028] border border-[#C89D5C]/30 rounded-3xl p-8 sm:p-12 relative overflow-hidden">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0B0D0F] border border-[#C89D5C]/30 text-[#DFBA7E] text-xs font-semibold mb-4">
+                    Cultural & Religious Heritage
+                </div>
+                <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4">
+                    Preserving the Kashmiri Language through the Divine Word
+                </h3>
+                <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
+                    Noor-e-Kashmir is committed to making the Holy Quran accessible to young and elderly Kashmiris alike. By pairing the eloquent Kashmiri translation of Mirwaiz Molvi Mohammad Yousuf Shah (RA) with modern, accessible typography, the app preserves our rich linguistic heritage for generations to come.
+                </p>
+                <div class="arabic-title text-xl text-[#DFBA7E] font-normal leading-loose">
+                    وَقُل رَّبِّ زِدْنِي عِلْمًا — "پروردگارا! مےٚ مَنٛز کَر عِلمَس اضافہ"
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#22262C] bg-[#090A0D] py-12 text-center text-xs text-slate-400">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center justify-center gap-3 mb-4">
+                <img src="icon.png" alt="Noor-e-Kashmir Logo" class="w-8 h-8 rounded-lg border border-[#C89D5C]/30">
+                <span class="text-sm font-bold text-white">Noor-e-Kashmir (نورِ کشمیر)</span>
+            </div>
+            <p class="max-w-md mx-auto mb-6 text-slate-400 text-[11px] leading-relaxed">
+                Dedicated to the Muslim Ummah across Jammu & Kashmir and worldwide. Built with reverence and excellence.
+            </p>
+            <div class="flex justify-center gap-6 font-medium text-slate-300 mb-6">
+                <a href="index.html" class="hover:text-[#DFBA7E] transition-colors">Home</a>
+                <a href="privacy.html" class="hover:text-[#DFBA7E] transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="hover:text-[#DFBA7E] transition-colors">Terms of Service</a>
+                <a href="mailto:support@noorekashmir.org" class="hover:text-[#DFBA7E] transition-colors">Contact</a>
+            </div>
+            <p class="text-[10px] text-slate-600">
+                © 2026 Noor-e-Kashmir. Package ID: com.koshur.quran. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
